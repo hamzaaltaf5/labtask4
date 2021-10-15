@@ -1,0 +1,91 @@
+.punchline {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+body {
+    margin: 40;
+    padding: 40;
+    background-image: url(winter.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+
+.login-form{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 380px;
+    height: 350px;
+    margin: 0;
+    padding: 35px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    margin: 0%;
+    padding: 0;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"], input[type="Password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.login-form input[type="button"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background-color: #0000ff;
+    color: rgb(255, 254, 254);
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-form input[type="button"]:hover
+{
+    background-color: #000;
+    color:white;
+    cursor: pointer;
+}
+
+.login-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.login-form img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -70px;
+    left: calc(50% - 50px);
+}
